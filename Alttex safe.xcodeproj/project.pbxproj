@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		AB550738200F6A4C00B02908 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB550737200F6A4C00B02908 /* AppDelegate.swift */; };
-		AB55073A200F6A4C00B02908 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB550739200F6A4C00B02908 /* ViewController.swift */; };
 		AB55073D200F6A4C00B02908 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB55073B200F6A4C00B02908 /* Main.storyboard */; };
 		AB55073F200F6A4C00B02908 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB55073E200F6A4C00B02908 /* Assets.xcassets */; };
 		AB550742200F6A4C00B02908 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB550740200F6A4C00B02908 /* LaunchScreen.storyboard */; };
 		AB55074D200F6A4C00B02908 /* Alttex_safeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB55074C200F6A4C00B02908 /* Alttex_safeTests.swift */; };
 		AB550758200F6A4C00B02908 /* Alttex_safeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB550757200F6A4C00B02908 /* Alttex_safeUITests.swift */; };
+		AB550766200F6A9F00B02908 /* WalletsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB550765200F6A9F00B02908 /* WalletsViewController.swift */; };
+		AB550768200F6AC900B02908 /* WithdrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB550767200F6AC900B02908 /* WithdrawViewController.swift */; };
+		AB55076A200F6AD800B02908 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB550769200F6AD800B02908 /* NewsViewController.swift */; };
+		AB55076C200F6AFD00B02908 /* RefilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB55076B200F6AFD00B02908 /* RefilViewController.swift */; };
+		AB55076E200F6B1B00B02908 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB55076D200F6B1B00B02908 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,6 @@
 /* Begin PBXFileReference section */
 		AB550734200F6A4C00B02908 /* Alttex safe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alttex safe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB550737200F6A4C00B02908 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AB550739200F6A4C00B02908 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AB55073C200F6A4C00B02908 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB55073E200F6A4C00B02908 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB550741200F6A4C00B02908 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,11 @@
 		AB550753200F6A4C00B02908 /* Alttex safeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alttex safeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB550757200F6A4C00B02908 /* Alttex_safeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alttex_safeUITests.swift; sourceTree = "<group>"; };
 		AB550759200F6A4D00B02908 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB550765200F6A9F00B02908 /* WalletsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletsViewController.swift; sourceTree = "<group>"; };
+		AB550767200F6AC900B02908 /* WithdrawViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithdrawViewController.swift; sourceTree = "<group>"; };
+		AB550769200F6AD800B02908 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		AB55076B200F6AFD00B02908 /* RefilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefilViewController.swift; sourceTree = "<group>"; };
+		AB55076D200F6B1B00B02908 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +106,11 @@
 			isa = PBXGroup;
 			children = (
 				AB550737200F6A4C00B02908 /* AppDelegate.swift */,
-				AB550739200F6A4C00B02908 /* ViewController.swift */,
+				AB550765200F6A9F00B02908 /* WalletsViewController.swift */,
+				AB55076B200F6AFD00B02908 /* RefilViewController.swift */,
+				AB55076D200F6B1B00B02908 /* SettingsViewController.swift */,
+				AB550769200F6AD800B02908 /* NewsViewController.swift */,
+				AB550767200F6AC900B02908 /* WithdrawViewController.swift */,
 				AB55073B200F6A4C00B02908 /* Main.storyboard */,
 				AB55073E200F6A4C00B02908 /* Assets.xcassets */,
 				AB550740200F6A4C00B02908 /* LaunchScreen.storyboard */,
@@ -259,8 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB55073A200F6A4C00B02908 /* ViewController.swift in Sources */,
+				AB55076C200F6AFD00B02908 /* RefilViewController.swift in Sources */,
+				AB550766200F6A9F00B02908 /* WalletsViewController.swift in Sources */,
+				AB550768200F6AC900B02908 /* WithdrawViewController.swift in Sources */,
 				AB550738200F6A4C00B02908 /* AppDelegate.swift in Sources */,
+				AB55076A200F6AD800B02908 /* NewsViewController.swift in Sources */,
+				AB55076E200F6B1B00B02908 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
