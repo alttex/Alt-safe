@@ -7,13 +7,27 @@
 //
 
 import UIKit
+import UserNotifications
 
 class WalletsViewController: UIViewController {
 
+    @IBAction func bntNotifications(_ sender: UIButton) {
+        let content = UNMutableNotificationContent()
+        content.title = "Change balance"
+        //content.subtitle = "Total USD: 11 463| Total BTC 3.62 + 5%(+ 1148$ + 0.18 BTC)"
+        content.body = "Total USD: 11 463| Total BTC 3.62 + 5%(+ 1148$ + 0.18 BTC)"
+        content.badge = 1
+        
+        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false)
+        let reqest = UNNotificationRequest(identifier: "timerDone", content: content, trigger: trigger)
+        UNUserNotificationCenter.current().add(reqest, withCompletionHandler: nil)
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        UNUserNotificationCenter.current().requestAuthorization(options: [.alert,.sound,.badge], completionHandler: { didAllow, error in
+            
+        })
     }
 
     override func didReceiveMemoryWarning() {

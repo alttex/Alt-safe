@@ -7,6 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		556105CA500A51B335B05244 /* Pods_Alttex_safe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EF044E8A4CC330FAD2FF122 /* Pods_Alttex_safe.framework */; };
+		97CDF5482232C6A09FD0C485 /* Pods_Alttex_safeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4329F27221BAE32F8617A5C4 /* Pods_Alttex_safeTests.framework */; };
+		AB2A119D202CD32E00C0E294 /* BEMAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2A1195202CD32D00C0E294 /* BEMAnimationManager.m */; };
+		AB2A119E202CD32E00C0E294 /* BEMCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2A1197202CD32D00C0E294 /* BEMCheckBox.m */; };
+		AB2A119F202CD32E00C0E294 /* BEMCheckBoxGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2A119B202CD32E00C0E294 /* BEMCheckBoxGroup.m */; };
+		AB2A11A0202CD32E00C0E294 /* BEMPathManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2A119C202CD32E00C0E294 /* BEMPathManager.m */; };
+		AB2A11A2202CD3E400C0E294 /* CurrencyDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2A11A1202CD3E400C0E294 /* CurrencyDataModel.swift */; };
+		AB2A11A4202CD41D00C0E294 /* CurrencyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2A11A3202CD41D00C0E294 /* CurrencyViewModel.swift */; };
+		AB2A11A6202CD46E00C0E294 /* CurrencyNetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2A11A5202CD46E00C0E294 /* CurrencyNetworkHelper.swift */; };
+		AB2A11AA202CD63300C0E294 /* WalletsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2A11A8202CD63300C0E294 /* WalletsTableViewCell.swift */; };
+		AB2A11B0202CF10100C0E294 /* RefilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2A11AF202CF10100C0E294 /* RefilViewController.swift */; };
+		AB2B20D4202B384D00A43768 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2B20D2202B384D00A43768 /* NewsTableViewCell.swift */; };
+		AB2B20D5202B384D00A43768 /* NewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB2B20D3202B384D00A43768 /* NewsTableViewCell.xib */; };
+		AB2B20D8202B3A4F00A43768 /* NewsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2B20D7202B3A4F00A43768 /* NewsHelper.swift */; };
+		AB2B20DB202B3AFA00A43768 /* NewsArticles.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2B20DA202B3AFA00A43768 /* NewsArticles.swift */; };
+		AB2B20DE202B40D700A43768 /* ModalWebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2B20DD202B40D700A43768 /* ModalWebVC.swift */; };
+		AB2B20E0202B40F100A43768 /* WebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2B20DF202B40F100A43768 /* WebVC.swift */; };
+		AB2B20E2202B411B00A43768 /* WebVCActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2B20E1202B411B00A43768 /* WebVCActivity.swift */; };
+		AB2B20E4202B414800A43768 /* WebVCActivityChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2B20E3202B414800A43768 /* WebVCActivityChrome.swift */; };
+		AB2B20E6202B41BB00A43768 /* WebVCActivitySafari.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2B20E5202B41BB00A43768 /* WebVCActivitySafari.swift */; };
+		AB38CC2E2030466F00C899DD /* WithdrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB38CC2D2030466F00C899DD /* WithdrawViewController.swift */; };
 		AB550738200F6A4C00B02908 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB550737200F6A4C00B02908 /* AppDelegate.swift */; };
 		AB55073D200F6A4C00B02908 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB55073B200F6A4C00B02908 /* Main.storyboard */; };
 		AB55073F200F6A4C00B02908 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB55073E200F6A4C00B02908 /* Assets.xcassets */; };
@@ -14,10 +35,13 @@
 		AB55074D200F6A4C00B02908 /* Alttex_safeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB55074C200F6A4C00B02908 /* Alttex_safeTests.swift */; };
 		AB550758200F6A4C00B02908 /* Alttex_safeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB550757200F6A4C00B02908 /* Alttex_safeUITests.swift */; };
 		AB550766200F6A9F00B02908 /* WalletsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB550765200F6A9F00B02908 /* WalletsViewController.swift */; };
-		AB550768200F6AC900B02908 /* WithdrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB550767200F6AC900B02908 /* WithdrawViewController.swift */; };
 		AB55076A200F6AD800B02908 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB550769200F6AD800B02908 /* NewsViewController.swift */; };
-		AB55076C200F6AFD00B02908 /* RefilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB55076B200F6AFD00B02908 /* RefilViewController.swift */; };
 		AB55076E200F6B1B00B02908 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB55076D200F6B1B00B02908 /* SettingsViewController.swift */; };
+		AB78D0DF202C90AC00661DF6 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB78D0DE202C90AC00661DF6 /* ColorExtension.swift */; };
+		AB78D0E4202CA4F500661DF6 /* AMCreditCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB78D0E1202CA4F400661DF6 /* AMCreditCardView.swift */; };
+		AB78D0E5202CA4F500661DF6 /* AMCreditCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB78D0E2202CA4F500661DF6 /* AMCreditCardView.xib */; };
+		AB78D0E6202CA4F500661DF6 /* CREDC.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB78D0E3202CA4F500661DF6 /* CREDC.ttf */; };
+		ABE1C65520320C4000E58743 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE1C65420320C4000E58743 /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +62,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11F9952ABA50D9CF568B518A /* Pods-Alttex safeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alttex safeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Alttex safeTests/Pods-Alttex safeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4329F27221BAE32F8617A5C4 /* Pods_Alttex_safeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alttex_safeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47502F1AA40340C382839065 /* Pods-Alttex safe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alttex safe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Alttex safe/Pods-Alttex safe.debug.xcconfig"; sourceTree = "<group>"; };
+		8EF044E8A4CC330FAD2FF122 /* Pods_Alttex_safe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alttex_safe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		965881B2405CEDFD22B7433D /* Pods-Alttex safeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alttex safeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Alttex safeTests/Pods-Alttex safeTests.release.xcconfig"; sourceTree = "<group>"; };
+		A79CEA10DE40938D8EBB6830 /* Pods-Alttex safe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alttex safe.release.xcconfig"; path = "Pods/Target Support Files/Pods-Alttex safe/Pods-Alttex safe.release.xcconfig"; sourceTree = "<group>"; };
+		AB2A1194202CD32C00C0E294 /* Alttex safe-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Alttex safe-Bridging-Header.h"; sourceTree = "<group>"; };
+		AB2A1195202CD32D00C0E294 /* BEMAnimationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMAnimationManager.m; sourceTree = "<group>"; };
+		AB2A1196202CD32D00C0E294 /* BEMCheckBoxGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMCheckBoxGroup.h; sourceTree = "<group>"; };
+		AB2A1197202CD32D00C0E294 /* BEMCheckBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMCheckBox.m; sourceTree = "<group>"; };
+		AB2A1198202CD32D00C0E294 /* BEMAnimationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMAnimationManager.h; sourceTree = "<group>"; };
+		AB2A1199202CD32D00C0E294 /* BEMPathManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMPathManager.h; sourceTree = "<group>"; };
+		AB2A119A202CD32E00C0E294 /* BEMCheckBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMCheckBox.h; sourceTree = "<group>"; };
+		AB2A119B202CD32E00C0E294 /* BEMCheckBoxGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMCheckBoxGroup.m; sourceTree = "<group>"; };
+		AB2A119C202CD32E00C0E294 /* BEMPathManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMPathManager.m; sourceTree = "<group>"; };
+		AB2A11A1202CD3E400C0E294 /* CurrencyDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyDataModel.swift; sourceTree = "<group>"; };
+		AB2A11A3202CD41D00C0E294 /* CurrencyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyViewModel.swift; sourceTree = "<group>"; };
+		AB2A11A5202CD46E00C0E294 /* CurrencyNetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyNetworkHelper.swift; sourceTree = "<group>"; };
+		AB2A11A8202CD63300C0E294 /* WalletsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletsTableViewCell.swift; sourceTree = "<group>"; };
+		AB2A11AF202CF10100C0E294 /* RefilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefilViewController.swift; sourceTree = "<group>"; };
+		AB2B20D2202B384D00A43768 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		AB2B20D3202B384D00A43768 /* NewsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsTableViewCell.xib; sourceTree = "<group>"; };
+		AB2B20D7202B3A4F00A43768 /* NewsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsHelper.swift; sourceTree = "<group>"; };
+		AB2B20DA202B3AFA00A43768 /* NewsArticles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsArticles.swift; sourceTree = "<group>"; };
+		AB2B20DD202B40D700A43768 /* ModalWebVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalWebVC.swift; sourceTree = "<group>"; };
+		AB2B20DF202B40F100A43768 /* WebVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebVC.swift; sourceTree = "<group>"; };
+		AB2B20E1202B411B00A43768 /* WebVCActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebVCActivity.swift; sourceTree = "<group>"; };
+		AB2B20E3202B414800A43768 /* WebVCActivityChrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebVCActivityChrome.swift; sourceTree = "<group>"; };
+		AB2B20E5202B41BB00A43768 /* WebVCActivitySafari.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebVCActivitySafari.swift; sourceTree = "<group>"; };
+		AB38CC2D2030466F00C899DD /* WithdrawViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WithdrawViewController.swift; sourceTree = "<group>"; };
 		AB550734200F6A4C00B02908 /* Alttex safe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alttex safe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB550737200F6A4C00B02908 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB55073C200F6A4C00B02908 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,10 +105,13 @@
 		AB550757200F6A4C00B02908 /* Alttex_safeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alttex_safeUITests.swift; sourceTree = "<group>"; };
 		AB550759200F6A4D00B02908 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB550765200F6A9F00B02908 /* WalletsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletsViewController.swift; sourceTree = "<group>"; };
-		AB550767200F6AC900B02908 /* WithdrawViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithdrawViewController.swift; sourceTree = "<group>"; };
 		AB550769200F6AD800B02908 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
-		AB55076B200F6AFD00B02908 /* RefilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefilViewController.swift; sourceTree = "<group>"; };
 		AB55076D200F6B1B00B02908 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		AB78D0DE202C90AC00661DF6 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		AB78D0E1202CA4F400661DF6 /* AMCreditCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AMCreditCardView.swift; sourceTree = "<group>"; };
+		AB78D0E2202CA4F500661DF6 /* AMCreditCardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AMCreditCardView.xib; sourceTree = "<group>"; };
+		AB78D0E3202CA4F500661DF6 /* CREDC.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CREDC.ttf; sourceTree = "<group>"; };
+		ABE1C65420320C4000E58743 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				556105CA500A51B335B05244 /* Pods_Alttex_safe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97CDF5482232C6A09FD0C485 /* Pods_Alttex_safeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +141,98 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A2266F9BD2F6233F68CFF12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8EF044E8A4CC330FAD2FF122 /* Pods_Alttex_safe.framework */,
+				4329F27221BAE32F8617A5C4 /* Pods_Alttex_safeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8FA68DDFF19DE84B317DFC0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47502F1AA40340C382839065 /* Pods-Alttex safe.debug.xcconfig */,
+				A79CEA10DE40938D8EBB6830 /* Pods-Alttex safe.release.xcconfig */,
+				11F9952ABA50D9CF568B518A /* Pods-Alttex safeTests.debug.xcconfig */,
+				965881B2405CEDFD22B7433D /* Pods-Alttex safeTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AB2A11A7202CD5DA00C0E294 /* WithdrawVC */ = {
+			isa = PBXGroup;
+			children = (
+				AB38CC2D2030466F00C899DD /* WithdrawViewController.swift */,
+			);
+			path = WithdrawVC;
+			sourceTree = "<group>";
+		};
+		AB2A11AE202CF0C600C0E294 /* RefilViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AB2A11AF202CF10100C0E294 /* RefilViewController.swift */,
+				AB2A11A8202CD63300C0E294 /* WalletsTableViewCell.swift */,
+				ABE1C65420320C4000E58743 /* DetailsViewController.swift */,
+			);
+			path = RefilViewController;
+			sourceTree = "<group>";
+		};
+		AB2B20CE202B36D400A43768 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AB2A11AE202CF0C600C0E294 /* RefilViewController */,
+				AB2B20DC202B404200A43768 /* NewsWebController */,
+				AB2B20CF202B377A00A43768 /* NewsVC */,
+				AB2A11A7202CD5DA00C0E294 /* WithdrawVC */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AB2B20CF202B377A00A43768 /* NewsVC */ = {
+			isa = PBXGroup;
+			children = (
+				AB550769200F6AD800B02908 /* NewsViewController.swift */,
+				AB2B20D2202B384D00A43768 /* NewsTableViewCell.swift */,
+				AB2B20D3202B384D00A43768 /* NewsTableViewCell.xib */,
+			);
+			path = NewsVC;
+			sourceTree = "<group>";
+		};
+		AB2B20D6202B3A3800A43768 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AB2B20D7202B3A4F00A43768 /* NewsHelper.swift */,
+				AB2A11A5202CD46E00C0E294 /* CurrencyNetworkHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		AB2B20D9202B3AE400A43768 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AB78D0E8202CC97F00661DF6 /* Checkbox */,
+				AB78D0E0202CA49400661DF6 /* CreditCardModel */,
+				AB2B20DA202B3AFA00A43768 /* NewsArticles.swift */,
+				AB2A11A1202CD3E400C0E294 /* CurrencyDataModel.swift */,
+				AB2A11A3202CD41D00C0E294 /* CurrencyViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AB2B20DC202B404200A43768 /* NewsWebController */ = {
+			isa = PBXGroup;
+			children = (
+				AB2B20DD202B40D700A43768 /* ModalWebVC.swift */,
+				AB2B20DF202B40F100A43768 /* WebVC.swift */,
+				AB2B20E1202B411B00A43768 /* WebVCActivity.swift */,
+				AB2B20E3202B414800A43768 /* WebVCActivityChrome.swift */,
+				AB2B20E5202B41BB00A43768 /* WebVCActivitySafari.swift */,
+			);
+			path = NewsWebController;
+			sourceTree = "<group>";
+		};
 		AB55072B200F6A4B00B02908 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +240,8 @@
 				AB55074B200F6A4C00B02908 /* Alttex safeTests */,
 				AB550756200F6A4C00B02908 /* Alttex safeUITests */,
 				AB550735200F6A4C00B02908 /* Products */,
+				A8FA68DDFF19DE84B317DFC0 /* Pods */,
+				6A2266F9BD2F6233F68CFF12 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,10 +260,11 @@
 			children = (
 				AB550737200F6A4C00B02908 /* AppDelegate.swift */,
 				AB550765200F6A9F00B02908 /* WalletsViewController.swift */,
-				AB55076B200F6AFD00B02908 /* RefilViewController.swift */,
+				AB78D0DC202C89DB00661DF6 /* Extensions */,
+				AB2B20D9202B3AE400A43768 /* Models */,
+				AB2B20D6202B3A3800A43768 /* Helpers */,
+				AB2B20CE202B36D400A43768 /* ViewControllers */,
 				AB55076D200F6B1B00B02908 /* SettingsViewController.swift */,
-				AB550769200F6AD800B02908 /* NewsViewController.swift */,
-				AB550767200F6AC900B02908 /* WithdrawViewController.swift */,
 				AB55073B200F6A4C00B02908 /* Main.storyboard */,
 				AB55073E200F6A4C00B02908 /* Assets.xcassets */,
 				AB550740200F6A4C00B02908 /* LaunchScreen.storyboard */,
@@ -137,6 +291,40 @@
 			path = "Alttex safeUITests";
 			sourceTree = "<group>";
 		};
+		AB78D0DC202C89DB00661DF6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AB78D0DE202C90AC00661DF6 /* ColorExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AB78D0E0202CA49400661DF6 /* CreditCardModel */ = {
+			isa = PBXGroup;
+			children = (
+				AB78D0E1202CA4F400661DF6 /* AMCreditCardView.swift */,
+				AB78D0E2202CA4F500661DF6 /* AMCreditCardView.xib */,
+				AB78D0E3202CA4F500661DF6 /* CREDC.ttf */,
+			);
+			path = CreditCardModel;
+			sourceTree = "<group>";
+		};
+		AB78D0E8202CC97F00661DF6 /* Checkbox */ = {
+			isa = PBXGroup;
+			children = (
+				AB2A1198202CD32D00C0E294 /* BEMAnimationManager.h */,
+				AB2A1195202CD32D00C0E294 /* BEMAnimationManager.m */,
+				AB2A119A202CD32E00C0E294 /* BEMCheckBox.h */,
+				AB2A1197202CD32D00C0E294 /* BEMCheckBox.m */,
+				AB2A1196202CD32D00C0E294 /* BEMCheckBoxGroup.h */,
+				AB2A119B202CD32E00C0E294 /* BEMCheckBoxGroup.m */,
+				AB2A1199202CD32D00C0E294 /* BEMPathManager.h */,
+				AB2A119C202CD32E00C0E294 /* BEMPathManager.m */,
+				AB2A1194202CD32C00C0E294 /* Alttex safe-Bridging-Header.h */,
+			);
+			name = Checkbox;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +332,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB55075C200F6A4D00B02908 /* Build configuration list for PBXNativeTarget "Alttex safe" */;
 			buildPhases = (
+				E046A2A866B1B3A23C45EF9B /* [CP] Check Pods Manifest.lock */,
 				AB550730200F6A4C00B02908 /* Sources */,
 				AB550731200F6A4C00B02908 /* Frameworks */,
 				AB550732200F6A4C00B02908 /* Resources */,
+				83155BE479DC49F6C616EA20 /* [CP] Embed Pods Frameworks */,
+				E778CF23D854825DA7AA2E21 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -161,9 +352,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB55075F200F6A4D00B02908 /* Build configuration list for PBXNativeTarget "Alttex safeTests" */;
 			buildPhases = (
+				11F4DCC36BC8394A1F1C0D4A /* [CP] Check Pods Manifest.lock */,
 				AB550744200F6A4C00B02908 /* Sources */,
 				AB550745200F6A4C00B02908 /* Frameworks */,
 				AB550746200F6A4C00B02908 /* Resources */,
+				FCC46C59282D3525D89175F0 /* [CP] Embed Pods Frameworks */,
+				600DAFB0AC6929681789FFA6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -205,6 +399,7 @@
 				TargetAttributes = {
 					AB550733200F6A4C00B02908 = {
 						CreatedOnToolsVersion = 9.0.1;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					AB550747200F6A4C00B02908 = {
@@ -245,7 +440,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB550742200F6A4C00B02908 /* LaunchScreen.storyboard in Resources */,
+				AB78D0E5202CA4F500661DF6 /* AMCreditCardView.xib in Resources */,
+				AB78D0E6202CA4F500661DF6 /* CREDC.ttf in Resources */,
 				AB55073F200F6A4C00B02908 /* Assets.xcassets in Resources */,
+				AB2B20D5202B384D00A43768 /* NewsTableViewCell.xib in Resources */,
 				AB55073D200F6A4C00B02908 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,17 +464,152 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		11F4DCC36BC8394A1F1C0D4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Alttex safeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		600DAFB0AC6929681789FFA6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Alttex safeTests/Pods-Alttex safeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83155BE479DC49F6C616EA20 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Alttex safe/Pods-Alttex safe-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/StepIndicator/StepIndicator.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StepIndicator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Alttex safe/Pods-Alttex safe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E046A2A866B1B3A23C45EF9B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Alttex safe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E778CF23D854825DA7AA2E21 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Alttex safe/Pods-Alttex safe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCC46C59282D3525D89175F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Alttex safeTests/Pods-Alttex safeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AB550730200F6A4C00B02908 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB55076C200F6AFD00B02908 /* RefilViewController.swift in Sources */,
+				AB2B20D8202B3A4F00A43768 /* NewsHelper.swift in Sources */,
+				AB2A11A4202CD41D00C0E294 /* CurrencyViewModel.swift in Sources */,
+				AB2B20E4202B414800A43768 /* WebVCActivityChrome.swift in Sources */,
+				AB2A119D202CD32E00C0E294 /* BEMAnimationManager.m in Sources */,
+				AB2A119E202CD32E00C0E294 /* BEMCheckBox.m in Sources */,
+				AB2A11A2202CD3E400C0E294 /* CurrencyDataModel.swift in Sources */,
+				AB2B20DB202B3AFA00A43768 /* NewsArticles.swift in Sources */,
+				AB2B20D4202B384D00A43768 /* NewsTableViewCell.swift in Sources */,
+				AB2A119F202CD32E00C0E294 /* BEMCheckBoxGroup.m in Sources */,
 				AB550766200F6A9F00B02908 /* WalletsViewController.swift in Sources */,
-				AB550768200F6AC900B02908 /* WithdrawViewController.swift in Sources */,
+				ABE1C65520320C4000E58743 /* DetailsViewController.swift in Sources */,
+				AB2B20DE202B40D700A43768 /* ModalWebVC.swift in Sources */,
+				AB2B20E2202B411B00A43768 /* WebVCActivity.swift in Sources */,
+				AB2B20E6202B41BB00A43768 /* WebVCActivitySafari.swift in Sources */,
+				AB78D0DF202C90AC00661DF6 /* ColorExtension.swift in Sources */,
+				AB2A11A6202CD46E00C0E294 /* CurrencyNetworkHelper.swift in Sources */,
 				AB550738200F6A4C00B02908 /* AppDelegate.swift in Sources */,
+				AB2A11A0202CD32E00C0E294 /* BEMPathManager.m in Sources */,
+				AB38CC2E2030466F00C899DD /* WithdrawViewController.swift in Sources */,
+				AB2A11B0202CF10100C0E294 /* RefilViewController.swift in Sources */,
 				AB55076A200F6AD800B02908 /* NewsViewController.swift in Sources */,
+				AB2A11AA202CD63300C0E294 /* WalletsTableViewCell.swift in Sources */,
 				AB55076E200F6B1B00B02908 /* SettingsViewController.swift in Sources */,
+				AB2B20E0202B40F100A43768 /* WebVC.swift in Sources */,
+				AB78D0E4202CA4F500661DF6 /* AMCreditCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,14 +773,20 @@
 		};
 		AB55075D200F6A4D00B02908 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47502F1AA40340C382839065 /* Pods-Alttex safe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = G8S6X8B5D2;
+				DEVELOPMENT_TEAM = YEKC9295K6;
 				INFOPLIST_FILE = "Alttex safe/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "MadeInHeaven.Alttex-safe";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alttex.Alt-safe";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Alttex safe/Models/Alttex safe-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -455,14 +794,19 @@
 		};
 		AB55075E200F6A4D00B02908 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A79CEA10DE40938D8EBB6830 /* Pods-Alttex safe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = G8S6X8B5D2;
+				DEVELOPMENT_TEAM = YEKC9295K6;
 				INFOPLIST_FILE = "Alttex safe/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "MadeInHeaven.Alttex-safe";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alttex.Alt-safe";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Alttex safe/Models/Alttex safe-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -470,6 +814,7 @@
 		};
 		AB550760200F6A4D00B02908 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11F9952ABA50D9CF568B518A /* Pods-Alttex safeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +832,7 @@
 		};
 		AB550761200F6A4D00B02908 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 965881B2405CEDFD22B7433D /* Pods-Alttex safeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
