@@ -69,7 +69,7 @@ public class SwiftWebVC: UIViewController {
     
     lazy var webView: WKWebView = {
         var tempWebView = WKWebView(frame: UIScreen.main.bounds)
-        tempWebView.uiDelegate = self
+        tempWebView.uiDelegate = self 
         tempWebView.navigationDelegate = self
         return tempWebView;
     }()
@@ -81,6 +81,10 @@ public class SwiftWebVC: UIViewController {
     var sharingEnabled = true
     
     ////////////////////////////////////////////////
+//    deinit {
+//        webView.scrollView.delegate = nil
+//    }
+    
     
     deinit {
         webView.stopLoading()
@@ -321,14 +325,14 @@ extension SwiftWebVC: WKNavigationDelegate {
         
         if (navigationAction.targetFrame == nil) {
             if UIApplication.shared.canOpenURL(url!) {
-                UIApplication.shared.openURL(url!)
+                UIApplication.shared.canOpenURL(url!) //openURL(url!)
             }
         }
         
         // To connnect app store
         if hostAddress == "itunes.apple.com" {
             if UIApplication.shared.canOpenURL(navigationAction.request.url!) {
-                UIApplication.shared.openURL(navigationAction.request.url!)
+                UIApplication.shared.canOpenURL(navigationAction.request.url!)
                 decisionHandler(.cancel)
                 return
             }
@@ -363,7 +367,7 @@ extension SwiftWebVC: WKNavigationDelegate {
         if let requestUrl: URL = URL(string:"\(urlScheme)"+"\(additional_info)") {
             let application:UIApplication = UIApplication.shared
             if application.canOpenURL(requestUrl) {
-                application.openURL(requestUrl)
+                application.canOpenURL(requestUrl)
             }
         }
     }

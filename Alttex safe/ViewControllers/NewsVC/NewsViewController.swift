@@ -13,20 +13,13 @@ import ObjectMapper
 
 
 
-class NewsViewController:UITableViewController{
+class NewsViewController: UITableViewController{
     
     var articlesArray = [Articles]()
-    
     var myRefreshControl = UIRefreshControl()
-    
-    
-    
     var loadedAd:Bool = false
     
-   
-    
- 
-    
+
     @objc func handleRefresh(_ refreshControl: UIRefreshControl) {
         
         // Get messages from service
@@ -38,7 +31,6 @@ class NewsViewController:UITableViewController{
                     self.tableView.reloadData()
                     refreshControl.endRefreshing()
                 }
-                
             }
         }) { (code, error) in
             self.showMessage(message: error)
@@ -53,25 +45,12 @@ class NewsViewController:UITableViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-       
-        
+
         UserDefaults.standard.set("yes", forKey: "loaded")
-        
         self.navigationItem.title = "Top Cryptocurrency Headlines"
+        let textAttributes = [NSAttributedStringKey.foregroundColor:UIColor.white]
+        navigationController?.navigationBar.titleTextAttributes = textAttributes
         
-        self.view.backgroundColor = UIColor.lightGray
-        
-        //        Analytics.logEvent(AnalyticsEventSelectContent, parameters: [
-        //            AnalyticsParameterItemID: "id-\(self.navigationItem.title!)" as NSObject,
-        //            AnalyticsParameterItemName: self.navigationItem.title! as NSObject,
-        //            AnalyticsParameterContentType: "launch" as NSObject
-        //            ])
-        
-        
-     
-        
-      
         
         // Setting tableView
         // Configure Refresh Control
@@ -100,7 +79,7 @@ class NewsViewController:UITableViewController{
                 self.tableView.reloadData()
             }
         }) { (code, error) in
-            self.showMessage(message: error)
+            self.showMessage(message: "No internet connection")
         }
         
     }
@@ -180,11 +159,11 @@ class NewsViewController:UITableViewController{
 extension NewsViewController: SwiftWebVCDelegate {
     
     func didStartLoading() {
-        print("Started loading.")
+        //print("Started loading.")
     }
     
     func didFinishLoading(success: Bool) {
-        print("Finished loading. Success: \(success).")
+       // print("Finished loading. Success: \(success).")
     }
 }
 
@@ -204,7 +183,7 @@ extension UIImageView {
         // if not, download image from url
         URLSession.shared.dataTask(with: url!, completionHandler: { (data, response, error) in
             if error != nil {
-                print(error!)
+               // print(error!)
                 return
             }
             

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="17D102" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CDGoogleUser" representedClassName="CDGoogleUser" syncable="YES" codeGenerationType="class">
+        <attribute name="userdata" optional="YES" attributeType="Transformable" syncable="YES"/>
+    </entity>
+    <entity name="CoinPrice" representedClassName="CoinPrice" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="WalletEntry1" representedClassName="WalletEntry1" syncable="YES" codeGenerationType="class">
+        <attribute name="data" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="value" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="WalletEntry2" representedClassName="WalletEntry2" syncable="YES" codeGenerationType="class">
+        <attribute name="data" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="value" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="WalletEntry3" representedClassName="WalletEntry3" syncable="YES" codeGenerationType="class">
+        <attribute name="data" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="value" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="WalletEntry4" representedClassName="WalletEntry4" syncable="YES" codeGenerationType="class">
+        <attribute name="data" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="value" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="WalletEntry5" representedClassName="WalletEntry5" syncable="YES" codeGenerationType="class">
+        <attribute name="data" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="value" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CDGoogleUser" positionX="-63" positionY="-18" width="128" height="30"/>
+        <element name="WalletEntry1" positionX="-36" positionY="9" width="128" height="105"/>
+        <element name="WalletEntry2" positionX="0" positionY="45" width="128" height="105"/>
+        <element name="WalletEntry3" positionX="-63" positionY="-9" width="128" height="105"/>
+        <element name="WalletEntry4" positionX="-54" positionY="0" width="128" height="105"/>
+        <element name="WalletEntry5" positionX="-18" positionY="27" width="128" height="105"/>
+        <element name="CoinPrice" positionX="-27" positionY="45" width="128" height="75"/>
+    </elements>
+</model>

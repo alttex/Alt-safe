@@ -1,10 +1,4 @@
-//
-//  AMCreditCardView.swift
-//  AMCreditCard
-//
-//  Created by Artur Mkrtchyan on 11/30/17.
-//  Copyright © 2017 Artur Mkrtchyan. All rights reserved.
-//
+
 
 import UIKit
 

@@ -1,0 +1,6 @@
+framework module Pods_Alttex_safe {
+  umbrella header "Pods-Alttex safe-umbrella.h"
+
+  export *
+  module * { export * }
+}

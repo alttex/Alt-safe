@@ -24,12 +24,9 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="HDb-hD-pWS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="GGL-Pt-FZo"/>
-                            <constraint firstItem="HDb-hD-pWS" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="IwW-og-J6e"/>
                             <constraint firstItem="HDb-hD-pWS" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="34" id="L3O-rI-HIf"/>
                             <constraint firstItem="HDb-hD-pWS" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="a3i-0b-g75"/>
                             <constraint firstItem="HDb-hD-pWS" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="elx-G9-c9f"/>
-                            <constraint firstItem="HDb-hD-pWS" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="34" id="idz-t0-GTr"/>
-                            <constraint firstItem="HDb-hD-pWS" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="pMn-6y-gwc"/>
                             <constraint firstItem="HDb-hD-pWS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="zsd-wx-95G"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
